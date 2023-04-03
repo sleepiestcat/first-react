@@ -16,7 +16,7 @@ const Board = () => {
   const [squares, setSquares] = useState(Array(9).fill(''))
   const [next, setNext] = useState('X');
   
-  //무승부 체크 기능
+  //무승부 체크
   const drawChecker = () => {
     for (let i=0; i<9; i++){
       if (squares[i]==""){
